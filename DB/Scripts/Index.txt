@@ -1,0 +1,2 @@
+create index stock_pivot_1 on stock_pivot (symbol, adate)
+create index eoddata_1 on eoddata(symbol, adate)
