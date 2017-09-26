@@ -1,2 +1,4 @@
-create index stock_pivot_1 on stock_pivot (symbol, adate)
-create index eoddata_1 on eoddata(symbol, adate)
+create unique index stock_pivot_1 on stock_pivot (symbol, adate)
+create unique index eoddata_1 on eoddata(symbol, adate)
+create unique index data5min_fast on data5min(adate, symbol, slno) 
+--drop index data5min_fast on data5min
