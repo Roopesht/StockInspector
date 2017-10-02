@@ -9,7 +9,7 @@ pids
 *.seed
 
 #special case
-data.accdb
+Data.accdb
 program.accdb
-googledata.accdb
+*\GoogleData.accdb
 *.laccdb
